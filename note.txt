@@ -1,0 +1,10 @@
+câu lệnh khởi động 
+git init
+git add index.html (thêm file vào git)
+git status (xem trạng thái của file có trong git)
+git add -A hoặc git add . (thêm các file lên git)
+git commit -m "lan dau su dung git"
+Câu lệnh đẩy code lên git hut lẩn đầu
+git push -u origin (tên nhánh có thể coi ở góc dưới cuối bên tay trái vscode)
+câu lệnh đẩy code lên github từ lần thứ 2
+git push 
