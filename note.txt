@@ -7,4 +7,9 @@ git commit -m "lan dau su dung git"
 Câu lệnh đẩy code lên git hut lẩn đầu
 git push -u origin (tên nhánh có thể coi ở góc dưới cuối bên tay trái vscode)
 câu lệnh đẩy code lên github từ lần thứ 2
-git push 
+git push git
+
+3 bước đẩy code lên github
+b1: git add . (đẩy các thay đổi trong các file lên khu vực staging area)
+b2: git commit -m "nội dung tin nhắn" (tạo ra một lịch sử phiên bản code của chúng ta)
+b3 chạy 1 trong 2 lệnh git push - u origin master + tên nhánh (nếu lần đầu đẩy code lên remote repo github đó) hoặc git push nếu đã đẩy lên 1 lần )
